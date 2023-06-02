@@ -17,6 +17,17 @@ You can activate API endpoints by adding command line argument to executable:
 ```
 --api
 ```
+## Environment Variable
+
+You need to create an environment variable with your Bot's secret Token called
+```
+token
+```
+
+You need to create an environment variable with your OpenAI API Key called
+```
+chatGPTApiKey
+```
 
 ## Links and utilities
 
