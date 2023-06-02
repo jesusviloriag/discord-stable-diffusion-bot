@@ -1,37 +1,11 @@
-# discord-chatgpt-bot
-A bot that can respond using ChatGPT and can also generate images
+# discord-stable-diffusion-bot
+A bot that can take requests for image generation with the commands:
 
-## Usage
-
-```
-npm start
-```
-
-You can send prompts to the bot 
-![alt text](https://i.imgur.com/dIpVNn6.png)
-
-For image generation:
 ```
 /image <prompt>
 ```
-![alt text](https://i.imgur.com/tiG0qnn.png)
-
-Or for a random image generation:
 ```
 /image random
-```
-![alt text](https://i.imgur.com/GJYpiJR.png)
-
-## Environment Variable
-
-You need to create an environment variable with your Bot's secret Token called
-```
-token
-```
-
-You need to create an environment variable with your OpenAI API Key called
-```
-chatGPTApiKey
 ```
 
 ## Links and utilities
@@ -42,9 +16,29 @@ https://discord.com/developers
 Repl.it:
 https://repl.it
 
-Shell Code:
-npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
+POST Request Payload:
+```json
+payload = {
+    "prompt": "Futuristic Vintage Medium Shot 1920's Poster with Cyberpunk, ovni,  tron biker with helmet bike, black in color, with a cyberpunk city background, futuristic lighting, cinematic lighting, cozy lighting, 8k, cinematic poster vintage 1800s",
+    "steps": 20,
+    "negative_prompt": "",
+    "sampler_name": "DDIM",
+    "cfg_scale": 7,
+    "seed": -1,
+    "width":512,
+    "height":512
+}
+```
 
+API URL:
+```
+'{url}/sdapi/v1/png-info'
+```
+
+command Line Args I used for Fast Gen in a M1 Mac:
+```
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention-v1 --medvram --always-batch-cond-uncond"
+```
 Package.json
 "start": "node ."
 
