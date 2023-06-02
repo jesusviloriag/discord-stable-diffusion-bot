@@ -1,5 +1,9 @@
 # discord-stable-diffusion-bot
-A bot that can take requests for image generation with the commands:
+A bot that can take requests for image generation.
+
+![alt text](https://i.imgur.com/3ABpEvZ.jpg)
+
+It can generate images using the commands:
 
 ```
 /image <prompt>
