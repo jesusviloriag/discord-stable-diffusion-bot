@@ -10,7 +10,7 @@ A bot that can take requests for image generation with the commands:
 
 ## Requirements
 
-Stable Diffusion WebUI:
+Stable Diffusion web UI:
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 You can activate API endpoints by adding command line argument to executable:
