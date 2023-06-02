@@ -23,9 +23,6 @@ You can activate API endpoints by adding command line argument to executable:
 Discord Developers Portal:
 https://discord.com/developers
 
-Repl.it:
-https://repl.it
-
 POST Request Payload:
 ```json
 payload = {
@@ -51,9 +48,6 @@ export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention-v1 --medvr
 ```
 Package.json
 "start": "node ."
-
-Uptime Robot:
-https://uptimerobot.com/
 
 ## License
 
