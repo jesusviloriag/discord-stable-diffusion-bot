@@ -55,7 +55,7 @@ API URL:
 
 command Line Args I used for Fast Gen in a M1 Mac:
 ```
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention-v1 --medvram --always-batch-cond-uncond --api"
+export COMMANDLINE_ARGS="--no-half --skip-torch-cuda-test --opt-split-attention-v1 --medvram --always-batch-cond-uncond --api --cors-allow-origins=http://127.0.0.1:7860"
 ```
 Package.json
 "start": "node ."
