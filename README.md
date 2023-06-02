@@ -10,6 +10,14 @@ A bot that can take requests for image generation with the commands:
 
 ## Links and utilities
 
+Stable Diffusion WebUI:
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+Ypu can activate API endpoints by adding command line argument to executable:
+```
+--api
+```
+
 Discord Developers Portal:
 https://discord.com/developers
 
@@ -37,7 +45,7 @@ API URL:
 
 command Line Args I used for Fast Gen in a M1 Mac:
 ```
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention-v1 --medvram --always-batch-cond-uncond"
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention-v1 --medvram --always-batch-cond-uncond --api"
 ```
 Package.json
 "start": "node ."
