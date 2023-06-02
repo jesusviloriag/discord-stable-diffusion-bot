@@ -8,15 +8,17 @@ A bot that can take requests for image generation with the commands:
 /image random
 ```
 
-## Links and utilities
+## Requirements
 
 Stable Diffusion WebUI:
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
-Ypu can activate API endpoints by adding command line argument to executable:
+You can activate API endpoints by adding command line argument to executable:
 ```
 --api
 ```
+
+## Links and utilities
 
 Discord Developers Portal:
 https://discord.com/developers
