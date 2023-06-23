@@ -33,13 +33,27 @@ You need to create an environment variable with your OpenAI API Key called
 chatGPTApiKey
 ```
 
+## Installation
+
+Install node dependencies
+```
+npm install
+```
+
+## Usage
+
+To start the project:
+```
+npm start
+```
+
 ## Links and utilities
 
 Discord Developers Portal:
 https://discord.com/developers
 
 POST Request Payload:
-```json
+```javascript
 payload = {
     "prompt": "Futuristic Vintage Medium Shot 1920's Poster with Cyberpunk, ovni,  tron biker with helmet bike, black in color, with a cyberpunk city background, futuristic lighting, cinematic lighting, cozy lighting, 8k, cinematic poster vintage 1800s",
     "steps": 20,
